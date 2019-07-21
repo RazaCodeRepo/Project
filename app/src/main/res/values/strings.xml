@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">QuranAyahApp</string>
+
+    <string name="pref_play_audio_label">Play Audio Automatically</string>
+    <string name="pref_play_audio_key" translatable="false">play_audio</string>
+    <string name="pref_enable_false">Disabled</string>
+    <string name="pref_enable_true">Enabled</string>
+
+    <string name="pref_time_label">Pause Time(seconds)</string>
+
+    <!-- Key name for storing time value in SharedPreferences -->
+    <string name="pref_time_key" translatable="false">pause_time</string>
+
+    <!-- Default for time preference -->
+    <string name="pref_time_default">5</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="colon"> : </string>
+    <string name="opening_braces">(</string>
+    <string name="closing_braces">)</string>
+    <string name="play">Play</string>
+    <string name="share">Share</string>
+    <string name="next">Next</string>
+    <string name="dash"> - </string>
+    <string name="previous">Previous</string>
+    <string name="download_dialog_title">Download Audio</string>
+    <string name="download_dialog_message">Would you like to download audio file before playing?</string>
+    <string name="download_dialog_yes">Yes</string>
+    <string name="download_dialog_no">No</string>
+
+</resources>

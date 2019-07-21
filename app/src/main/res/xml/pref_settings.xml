@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_play_audio_auto"
+        android:key="@string/pref_play_audio_key"
+        android:summaryOff="@string/pref_enable_false"
+        android:summaryOn="@string/pref_enable_true"
+        android:title="@string/pref_play_audio_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_time_default"
+        android:key="@string/pref_time_key"
+        android:title="@string/pref_time_label" />
+
+</PreferenceScreen>
